@@ -6,7 +6,7 @@ export default function Topbar() {
 
   return (
     <nav className="bg-gray-800 px-6 py-3 flex justify-between items-center shadow-md">
-      <div className="flex items-center" onClick={()=>navigate("/home")}>
+      <div className="flex items-center" onClick={()=>navigate("/")}>
         <p className="text-red-500 font-bold text-xl tracking-widest italic cursor-pointer">
           CSTech
         </p>

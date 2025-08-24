@@ -4,7 +4,7 @@ export default function Navbar() {
   const navigate = useNavigate();
   const logout = () => {
     localStorage.removeItem("token");
-    navigate("/home");
+    navigate("/");
   };
 
   return (
